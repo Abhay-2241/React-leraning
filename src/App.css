@@ -5,3 +5,36 @@
   align-items: center;
   padding: 0.5rem 1rem;
 }
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 50px;
+  width: 50px;
+}
+.header {
+  display: flex;
+  border: 10px solid rgb(214, 119, 119);
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 98%;
+  z-index: 999;
+  margin : 10px;
+  border: 1px solid black;
+ }
+
+.nav-bar > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.nav-bar > ul > li {
+  margin-left: 1rem;
+  padding: 10px;
+}

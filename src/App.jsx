@@ -9,10 +9,11 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Title/>
+            {/* <Title/> */}
+            <Header />
+
     </>
   )
 }
 
-export default App
+export default App;
