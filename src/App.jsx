@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import burgerking from './Burgerking'
 import Header , {Title} from './components/Header'
+import Body from './components/Body'
 function App() {
   
 
@@ -11,6 +12,7 @@ function App() {
     <>
             {/* <Title/> */}
             <Header />
+            <Body/>
 
     </>
   )
