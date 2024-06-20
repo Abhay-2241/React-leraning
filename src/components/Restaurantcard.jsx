@@ -1,5 +1,5 @@
-const Restaurantcard = ({Restaurant}) => {
-    const {cloudinaryImageId , name , cuisines, lastmMileTravelString} = Restaurant.data 
+const Restaurantcard = ({restaurant}) => {
+    const {cloudinaryImageId , name , cuisines, lastmMileTravelString} = restaurant.data 
 
     return (
         <div className="card">
